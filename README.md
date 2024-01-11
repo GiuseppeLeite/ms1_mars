@@ -4,7 +4,7 @@ This repository contains code used to perform analysis for Leite et al. "Monocyt
 
 ###  Bulk data deconvolution  
 
-We utilized CIBERSORTx (https://cibersortx.stanford.edu/) to estimate the percentage of MS1 cells from the bulk normalized gene expression matrix. To deconvolute the whole blood gene expression data, we used the cell state signature matrix generated from scRNA-seq of peripheral blood mononuclear cells as reference (REF) This signature matrix encompasses 16 immune cell states. CIBERSORTx was performed with batch correction, quantile normalization, absolute mode, and 100 permutations. 
+We utilized CIBERSORTx (https://cibersortx.stanford.edu/) to estimate the percentage of MS1 cells from the bulk normalized gene expression matrix. To deconvolute the whole blood gene expression data, we used the cell state signature matrix generated from scRNA-seq of peripheral blood mononuclear cells as reference. This signature matrix encompasses 16 immune cell states. CIBERSORTx was performed with batch correction, quantile normalization, absolute mode, and 100 permutations (DOI: 10.1126/scitranslmed.abe9599, DOI: 10.1126/scitranslmed.abe9599). 
 
 The results are importet to R and the pecertages of MS1 are calculted using the following code:
 - Code: CIBERSORTx Results and Stacked barplot.R
