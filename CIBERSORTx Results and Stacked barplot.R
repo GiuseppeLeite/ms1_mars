@@ -38,7 +38,7 @@ p1 <- ggplot(CIBERSORTx_cells,            # Create ggplot2 plot scaled to 1.00
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) # # Rotate the Legend
 
 p1                              
-dev.copy2pdf(file="Stacked_barplot.pdf", width = 4, height =5)
+dev.copy2pdf(file="Stacked_barplot.pdf", width = 8, height =7)
 dev.off()
 
 
