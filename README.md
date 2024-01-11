@@ -22,3 +22,4 @@ Quantitative sepsis response signature (SRSq) score – The SRSq score was compu
 
 Molecular degree of perturbation (MDP) score – which functions as a quantitative representation of transcriptional perturbation. This score is derived by computing the average of the highest 25% gene z-scores related to expression levels between patients with sepsis and the reference group ("healthy controls").
 - Code: MDP score.R
+- https://bioc.ism.ac.jp/packages/3.16/bioc/html/mdp.html
